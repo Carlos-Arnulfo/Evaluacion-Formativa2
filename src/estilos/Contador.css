@@ -1,0 +1,16 @@
+.Contador {
+    font-size: 20rem;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 3rem;
+    border: .5rem solid black;
+
+}
+
+.Contador-positivo {
+    color: green;
+  }
+  
+  .Contador-negativo {
+    color: red;
+  }

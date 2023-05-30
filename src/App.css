@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3F3F3;
+  margin: 0 auto;
+}
+.contenedor-principal {
+  background-color: rgb(255, 255, 255);
+  max-width: 50rem;
+  height: 50rem;
+  border: 1px solid black;
+  display: grid;
+  grid-template-rows: 60% 30%;
+  margin: 2rem;
+}
+
+.btn {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+

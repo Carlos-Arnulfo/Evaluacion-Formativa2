@@ -1,0 +1,19 @@
+button {
+    background-color:  black;
+    color: whitesmoke;
+    text-align: center;
+    width: 20rem;
+    height: 4rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    transition: 0.2s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(205, 203, 207);
+    color: black;
+}
+
